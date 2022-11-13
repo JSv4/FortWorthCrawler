@@ -15,6 +15,7 @@ services:
     depends_on:
       - postgres
       - redis
+      - celeryworker
     volumes:
       - .:/app:z
     env_file:

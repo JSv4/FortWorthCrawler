@@ -17,3 +17,8 @@ django-allauth==0.51.0  # https://github.com/pennersr/django-allauth
 django-crispy-forms==1.14.0  # https://github.com/django-crispy-forms/django-crispy-forms
 crispy-bootstrap5==0.7  # https://github.com/django-crispy-forms/crispy-bootstrap5
 django-redis==5.2.0  # https://github.com/jazzband/django-redis
+
+# Crawler stuff
+# --------------------------------------------------------------------------------
+rich==12.6.0  # https://github.com/Textualize/rich
+urllib3==1.26.12  # https://urllib3.readthedocs.io/en/stable/

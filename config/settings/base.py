@@ -76,7 +76,8 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "fort_worth_crawler.users",
-    "fort_worth_crawler.documents"
+    "fort_worth_crawler.documents",
+    "fort_worth_crawler.crawls"
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
